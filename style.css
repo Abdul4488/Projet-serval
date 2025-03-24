@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { background-image: url("./assets/941723.jpg"); }
+
+
+img{
+    width: 100vw; 
+    height: 60vh;
+    background-clip: border-box;
+}
+
+#compass img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    
+    
+}
+
+#compass {
+   width:100%;  
+   height: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+#view-container {
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+}
+
+#controls {
+    display: flex;
+   
+    height: 25vh;
+    width: 50vw;
+}
+
+#controls table {
+  
+    height: 80%;
+    
+}
+
+#controls button {
+   
+    height: 80%;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#controls button.turn-icon {
+    font-size: 1.5rem;
+}
+
+#form-method {
+    display: flex;
+    justify-content:left;
+    
+}
+
+#map-text {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #080808;
+   color: white;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 60%;
+    opacity: 0.6;
+    position: fixed;
+    
+}
+
+#map-container {
+    display: flex;
+   justify-content: center;
+    width: 60%;
+    height: 20%;
+
+}
+
+#map-view {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.hand-icon {
+    font-size: 94px; /* Taille de l'icône */
+    cursor: pointer; /* Pour imiter le comportement d'un bouton */
+}
